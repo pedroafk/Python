@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0", //Use your own version
+    "configurations": [
+        {
+            "name": "Python: Django",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\manage.py", //rename for your own manage.py
+            "args": [
+                "runserver" //It is the Venv command to start the server
+            ],
+            "django": true
+        }
+    ]
+}
